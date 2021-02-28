@@ -1,0 +1,10 @@
+#products {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+
+	@media screen and (max-width: 768px) {
+		grid-template-columns: repeat(auto-fit, minmax(calc(50%), 1fr));
+	}
+
+
+}
