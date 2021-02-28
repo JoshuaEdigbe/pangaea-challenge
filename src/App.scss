@@ -3,12 +3,23 @@
 	padding: 0px 2rem;
 	font-size: 1rem;
 }
+
+.primary-button {
+	background-color: rgb(75, 85, 72);
+	border: 0px;
+	color: #ffffff;
+
+	&:hover {
+		background-color: rgb(43, 46, 43);
+	}
+}
+
 html {
 	font-size: 16px;
 }
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 @media screen and (max-width: 572px) {

@@ -10,10 +10,11 @@ const ProductItem = () => {
 			<img
 				src="https://d1b929y2mmls08.cloudfront.net/luminskin/img/new-landing-page/moisturizing-balm.png"
 				alt=""
+				className="photo"
 			/>
-			<p>Product Title</p>
-
-			<button className="custom-button">Add to Cart</button>
+			<p className="title">Product Title</p>
+			<span className="price">From $40.40</span>
+			<button className="custom-button primary-button">Add to Cart</button>
 		</div>
 	);
 };
